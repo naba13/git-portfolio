@@ -1,0 +1,433 @@
+
+/**********************************************************Header*************************************************************/
+
+.header{
+	background-image: url('images/Header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	width: 100%;
+	height: 700px;
+}
+
+.header .top-bar{
+	display: inline-block;
+}
+
+.header .top-bar .logo{
+	float: left;
+	margin-left: 40px;
+}
+
+.header .top-bar .logo img{
+	width: 90%;
+	position: relative;
+    top: -30px;
+    left: 25px;
+}
+
+.header .top-bar .home-line{
+	position: absolute;
+    top: -66px;
+    left: 258px;
+}
+
+.header .top-bar .nav-bar{
+	float: right;
+	margin-left: 45px;
+	/*margin-left: 184px;*/
+	margin-top: 30px;
+}
+
+.header .top-bar .nav-bar ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 65px;
+}
+
+.header .top-bar .nav-bar ul li a{
+	color: white;
+	font-family: Gentium Book Basic;
+	text-decoration: none;
+	font-size: 19px;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+}
+
+.header .top-bar .nav-bar ul .social-icon{
+	list-style: none;
+	display: inline;
+	margin-right: 13px;
+	position: relative;
+	left: -45px;
+	top: 3px;
+}
+
+.header .top-bar .nav-bar ul li a img { 
+	width: 20px;
+}
+
+.header .header-content{
+	text-align: center;
+}
+
+.header .header-content h3.header-text{
+	text-align: center;
+	color: white;
+	width: 800px;
+	font-size: 90px;
+	font-family: Yeseva none;
+	margin-top: 35px;
+	margin-left: 260px;
+	line-height: 100px;
+}
+
+.header .header-content img.seperator-2{
+	position: relative;
+	left: 90px;
+	top: -60px;
+	margin-bottom: 30px;
+}
+
+.header .header-content .header-button-1{
+	border: 1px solid black;
+	padding: 18px 35px;
+	background-color: black;
+	margin-right: 40px;
+	margin-left: -242px;
+	text-decoration: none;
+}
+
+.header .header-content .header-button-2{
+	background: #c1b46e7a;
+	padding: 18px 35px;
+	text-decoration: none;
+}
+
+.header .header-content a span{
+	color: white;
+	font-family: lato;
+	font-size: 17px;
+}
+
+/**********************************************************Header*************************************************************/
+
+/*********************************************************About-Us************************************************************/
+
+#about-us{
+	background-image: url('images/pattern.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	width: 100%;
+	height: 700px;
+}
+
+#about-us .about-content{
+	float: left;
+	width: 490px;
+	text-align: center;
+	position: relative;
+	left: 90px;
+	top: 100px;
+}
+
+#about-us .about-content h2{
+	color: #cc9900;
+    font-family: Yeseva one;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+#about-us .about-content .seperator-1{
+	position: relative;
+	top: -30px;
+}
+
+#about-us .about-content p{
+	color: #4c4c4c;
+    font-family: lato;
+	margin: auto;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .25px;
+}
+
+#about-us .plate{
+	float: right;
+	position: relative;
+	right: 230px;
+	top: 70px;
+}
+
+#about-us div {
+	width: 430px;
+}
+
+img.signature {
+    margin: 20px 0px;
+}
+
+/*********************************************************About-Us************************************************************/
+
+/*********************************************************Ingredients************************************************************/
+#ingredients{
+	background-image: url('images/find-ingre-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	width: 100%;
+	height: 600px;
+}
+.ingredients-box{
+	height: 450px;
+	width: 450px;
+	background-color: #00000099;
+	position: relative;
+	left: 700px;
+	top: 100px;
+	text-align: center;
+}
+
+.box{
+	line-height: 23px;
+    padding: 0px 22px 0px 22px;
+}
+.box>h2{
+	color:#ffff;
+    font-family: Yeseva one;
+    font-size: 36px;
+	font-weight: 500;
+	padding-top: 50px;
+    margin-bottom: 10px;
+}
+.box p{
+	color:#ffff;
+	font-family: lato;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+img.image-1 {
+      width: 100px;
+   
+}
+
+/*********************************************************Ingredients************************************************************/
+
+/*********************************************************Menu************************************************************/
+#menu{
+	width: 100%;
+	display: flex;
+}
+.section-3-row-1  {
+	
+	 text-align: center;
+	
+ }
+ .column>h2{
+	 color: #cc9900;
+	 font-size: 36px;
+	 font-family: Yeseva one;
+ }
+ 
+ .column>h3{
+	 color: #cc9900;
+	 font-size: 21px;
+	 font-family: Yeseva one;
+	 text-align: justify;
+ }
+ .row{
+	 display: flex;
+	 color: #cc9900;
+	 font-size: 21px;
+	 font-family: Yeseva one;
+	 padding-left: 50PX;
+	 
+ }
+ .row>p{
+	 padding-left: 435px;
+ }
+ .line{
+	 border-bottom: 1px #e9e2c8 solid;
+	 width: 92%;
+	 margin-left: 30px;
+ }
+ 
+ .column>p {
+	 color: black;
+	 font-size: 16px;
+	 font-family: Yeseva one;
+	 text-align: justify;
+	 padding-left: 50px;
+ }
+ p.extra {
+    padding-left: 370px;
+}
+p.extra-2 {
+    padding-left: 390px;
+}
+p.extra-1 {
+    padding-left: 315px;
+}
+
+ /*********************************************************Menu************************************************************/
+
+
+ /*********************************************************Review************************************************************/
+
+ #review{
+	background-image: url('./images/banner.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	height: 650px;
+}
+.review-box{
+
+	width: 600px;
+	background-color: #000000c7;
+	position: relative;
+	left: 370px;
+	top: 150px;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.review-detail{
+	line-height: 23px;
+    padding: 0px 22px 0px 22px;
+}
+.review-detail>h2{
+	color:#ffff;
+    font-family: Yeseva one;
+    font-size: 36px;
+	font-weight: 500;
+	padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+blockquote {
+	line-height: 30px;
+	color:#ffff;
+	position: relative;
+	width: 455px;
+   
+}
+
+blockquote:before {
+	display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -50px;
+    top: 10px;
+    color: #7a7a7a;
+}
+.review-detail>p{
+	color:#ffff;
+    font-family: lato;
+    font-size: 12px;
+}
+
+/*********************************************************Review************************************************************/
+/*********************************************************Contact************************************************************/
+#contact{
+	background-image: url('./images/review-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	display: flex;
+}
+.contact-column {
+
+    margin: 35px;
+    display: flex;
+	align-items: baseline;
+	text-align: center;
+}
+
+.contact-img {
+    float: left;
+    margin: 0px 30px;
+}
+.contact-detail>h2{
+	color: #cc9900;
+	 font-size: 36px;
+	 font-family: Yeseva one;
+
+}
+.contact-detail p{
+	color: black;
+	 font-size: 16px;
+	 font-family: lato;
+	 line-height: 25px;
+	 padding-left: 71px
+
+}
+
+
+.form {
+    display: flex;
+}
+.detail-column {
+    display: flex;
+	flex-flow: column;
+	text-align: justify;
+	color: #cc9900;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'lato';
+	padding-left: 90px;
+}
+label {
+    padding: 10px 0px;
+}
+
+input#name, input#date, input#email, input#party{
+    width: 200px;
+    height: 35px;
+}
+/*********************************************************Contact******************************************************/
+/*********************************************************Footer******************************************************/
+
+.footer{
+	background-color: #191919;
+	display: flex;
+
+}
+.footer-content {
+    display: flex;
+	text-align: center;
+	}
+.footer-detail>h4{
+	color: #ffff;
+	 font-size: 21px;
+	 font-family: Yeseva one;
+}
+
+.footer-detail>p{
+	color: #ffff;
+	 font-size: 16px;
+	 font-family: OpenSans;
+}
+
+.footer-detail {
+    width: calc(100% / 3 - 100px);
+    padding: 0px 65px;
+}
+/*********************************************************footer******************************************************/
+img.social-icon{ 
+	width: 20px;
+	padding: 0px 4px;
+	color: #ffff;
+}
+
+input[type="submit"] {
+    background: #c9a131;
+    padding: 10px;
+    font-size: 16px;
+	margin: 25px;
+	width: 200px;
+    height: 50px;
+}
